@@ -44,6 +44,11 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
         setClosable(true);
         setTitle("FmServiceHistory");
 
+        jTabbedPane1.setBackground(new java.awt.Color(255, 255, 255));
+        jTabbedPane1.setForeground(new java.awt.Color(0, 51, 153));
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -56,6 +61,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
         );
 
         jTabbedPane1.addTab("ผู้ป่วยนอก", jPanel1);
+
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -70,6 +77,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
 
         jTabbedPane1.addTab("ผู้ป่วยใน", jPanel2);
 
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -82,6 +91,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
         );
 
         jTabbedPane1.addTab("NCDSCREEN", jPanel3);
+
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -96,6 +107,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
 
         jTabbedPane1.addTab("แม่และเด็ก", jPanel4);
 
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
@@ -109,6 +122,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
 
         jTabbedPane1.addTab("วัคซีน", jPanel5);
 
+        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
+
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
@@ -121,6 +136,8 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
         );
 
         jTabbedPane1.addTab("LAB", jPanel7);
+
+        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -136,12 +153,16 @@ public class FmServiceHistory extends javax.swing.JInternalFrame {
         jTabbedPane1.addTab("เบาหวาน-ความดัน", jPanel8);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "ข้อมูลบุคคล", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 14))); // NOI18N
+        jPanel6.setForeground(new java.awt.Color(0, 0, 153));
         jPanel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 51, 153));
         jLabel1.setText("ชื่อ-สกุล:");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 51, 153));
         jLabel3.setText("ทีอยู่:");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
