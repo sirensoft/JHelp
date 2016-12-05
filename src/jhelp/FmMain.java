@@ -170,6 +170,7 @@ public class FmMain extends javax.swing.JFrame {
             f1.setMaximum(true);
         } catch (PropertyVetoException ex) {
             ex.printStackTrace();
+            ///
         }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
