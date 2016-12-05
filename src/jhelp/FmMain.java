@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 public class FmMain extends javax.swing.JFrame {
 
     private Fm1 f1;
+    private FmServiceHistory fsh;
 
     public FmMain() {
         setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
@@ -78,6 +79,11 @@ public class FmMain extends javax.swing.JFrame {
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton2);
 
         getContentPane().add(jToolBar2, java.awt.BorderLayout.PAGE_START);
@@ -173,6 +179,18 @@ public class FmMain extends javax.swing.JFrame {
             ///
         }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            fsh = new FmServiceHistory();
+            desktop.add(fsh);
+            fsh.setVisible(true);
+            fsh.setMaximum(true);
+        } catch (PropertyVetoException ex) {
+            ex.printStackTrace();
+            ///
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
