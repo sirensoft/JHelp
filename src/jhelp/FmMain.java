@@ -174,7 +174,7 @@ public class FmMain extends javax.swing.JFrame {
         SimpleMySQL mysql = new SimpleMySQL();
         boolean con = mysql.connect("localhost", "3309", "root", "1234", "jhcisdb", "utf8");
         if (con) {
-            System.out.println("...ok");
+            System.out.println("connection...ok\n");
         }
     }//GEN-LAST:event_formWindowOpened
 
