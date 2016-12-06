@@ -106,7 +106,7 @@ public class FmMain extends javax.swing.JFrame {
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_END);
 
-        desktop.setBackground(new java.awt.Color(153, 255, 153));
+        desktop.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout desktopLayout = new javax.swing.GroupLayout(desktop);
         desktop.setLayout(desktopLayout);
@@ -179,7 +179,7 @@ public class FmMain extends javax.swing.JFrame {
     }//GEN-LAST:event_formWindowOpened
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-     
+
         try {
             f1 = new Fm1();
             desktop.add(f1);
@@ -192,6 +192,7 @@ public class FmMain extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       
         try {
             fsh = new FmServiceHistory();
             desktop.add(fsh);
