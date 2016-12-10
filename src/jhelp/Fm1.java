@@ -45,6 +45,9 @@ public class Fm1 extends javax.swing.JInternalFrame {
         jButton1 = new javax.swing.JButton();
 
         setClosable(true);
+        setIconifiable(true);
+        setMaximizable(true);
+        setResizable(true);
         setTitle("ตั้งค่า...");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         try {

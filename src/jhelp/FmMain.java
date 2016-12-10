@@ -19,6 +19,7 @@ public class FmMain extends javax.swing.JFrame {
 
     private Fm1 f1;
     private FmServiceHistory fsh;
+    private Fm2 f2;
 
     public FmMain() {
         setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
@@ -75,6 +76,11 @@ public class FmMain extends javax.swing.JFrame {
         jButton1.setFocusable(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jToolBar2.add(jButton1);
 
         jButton2.setText("ประวัติรับบริการ");
@@ -203,6 +209,19 @@ public class FmMain extends javax.swing.JFrame {
             ///
         }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+         try {
+            f2 = new Fm2();
+            desktop.add(f2);
+            f2.setVisible(true);
+            f2.setMaximum(true);
+        } catch (PropertyVetoException ex) {
+            ex.printStackTrace();
+            ///
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
